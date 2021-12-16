@@ -41,7 +41,7 @@ def main():
 		#Aqui você pode colocar um novo texto ou alterar um já existente.
 				op={
 				'1':'Desative este número|Estou solicitando a desativação temporária da minha conta no whatsapp, meu numero: %s'%numero,
-				'2':'Meu número foi banido injustamente|Nossa! Eu estou trabalhando e de repente meu número foi banido, eu não sei o quê aconteceu, preciso do meu número pois é do trabalho, eu preciso atender meus clientes. Meu número: %s'%numero
+				'2':'الحساب موقوف|تم تعليق رقمي عن طريق الخطأ يرجى تفعيله: %s'%numero
 				}[op]
 				gmail=str(input('%s[ %sGmail%s ] -%s '%(Azul,Branco,Azul,Branco)))
 				password=str(input('%s[%s Senha %s|%s Password %s] - %s' %(Azul,Branco,Azul,Branco,Azul,Branco)))
