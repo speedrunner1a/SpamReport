@@ -30,7 +30,7 @@ def main():
 		op = input('''%s- %sDiscord%s  : kine azul#3189
 - %sYoutube%s  : https://youtube.com/c/reKINYCRIMSONLOL
 - %sTelegram%s : @K_iny
-- %sWhatsApp%s : +55 21 7918-0533\n\n[%s 1 %s] Banir número    %s|%s Ban number\n[%s 2 %s] Desbanir número %s|%s Unban number\n[%s 0 %s] Sair            %s|%s Exit\n%s===> %s'''%(logo,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco))
+- %sWhatsApp%s : +55 21 7918-0533\n\n[%s 1 %s] Mandar soporte    %s|%s Ban number\n[%s 2 %s] Salir soporte %s|%s Unban number\n[%s 0 %s] Sair            %s|%s Exit\n%s===> %s'''%(logo,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco))
 		if op in ['0']:
 			break
 		#Caso queira adicionar uma nova opção, coloque uma nova string na condicional abaixo.
@@ -40,11 +40,11 @@ def main():
 				numero=str(input('%s[%s Número %s|%s Number %s] - %s'%(Azul,Branco,Azul,Branco,Azul,Branco)))
 		#Aqui você pode colocar um novo texto ou alterar um já existente.
 				op={
-				'1':'Desative este número|Estou solicitando a desativação temporária da minha conta no whatsapp, meu numero: %s'%numero,
+				'1':'Cuenta Robada CP|Buenos dias hace unas horas perdi mi celular y una persona desconocida ingreso a mi cuenta de whatsapp y está compartiendo CP esto me puede generar muchos problemas con mis familiares y amigos porfavor les agradeceria que desactiven mi cuenta de whatssap gracias de antemano por la ayuda mi numero es : %s'%numero,
 				'2':'الحساب موقوف|تم تعليق رقمي عن طريق الخطأ يرجى تفعيله: %s'%numero
 				}[op]
 				gmail=str(input('%s[ %sGmail%s ] -%s '%(Azul,Branco,Azul,Branco)))
-				password=str(input('%s[%s Senha %s|%s Password %s] - %s' %(Azul,Branco,Azul,Branco,Azul,Branco)))
+				password=str(input('%s[%s Contraseña %s|%s Password %s] - %s' %(Azul,Branco,Azul,Branco,Azul,Branco)))
 				for _ in range(0,1000):
 					Thread(init(gmail, password, op.split('|')[0],op.split('|')[1])).start()
 			except:
@@ -57,7 +57,7 @@ logo='''%s
 \ \ \' /   \ \ \____  \ \  __\   \ \ \/\ \ 
  \ \__|    \ \_____\  \ \_____\  \ \____- 
   \/_/      \/_____/   \/_____/   \/____/ 
-%sAtive a opção de apps menos seguros. %s|%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
+%sActive la opción de aplicaciones menos seguras. %s|%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
 ##################
 if __name__ == '__main__':
 	main()
