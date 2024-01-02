@@ -27,7 +27,7 @@ def init(gmail, password, titulo, body):
 def main():
 	while True:
 		system('cls||clear')
-		op = input('''%s- %sDiscord%s  : 
+		op = input('''
 - %sTelegram%s : @K_iny
 - %sWhatsApp%s : \n\n[%s 1 %s] Mandar soporte    %s|%s Ban number\n[%s 2 %s] Salir soporte %s|%s Unban number\n[%s 0 %s] Salir            %s|%s Exit\n%s===> %s'''%(logo,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco))
 		if op in ['0']:
