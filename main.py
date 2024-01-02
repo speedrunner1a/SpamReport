@@ -29,21 +29,21 @@ def main():
 		system('cls||clear')
 		op = input('''%s- %sDiscord%s  : Helix_efixx 
 - %sTelegram%s : @K_iny
-- %sWhatsApp%s : \n\n[%s 1 %s] Mandar soporte    %s|%s Ban number\n[%s 2 %s] Salir soporte %s|%s Unban number\n[%s 0 %s] Salir            %s|%s Exit\n%s===> %s'''%(logo,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco,Azul,Branco))
+- %sWhatsApp%s : \n\n[%s 1 %s] Mandar soporte    %s|%s Ban number\n[%s 2 %s] Salir soporte %s|%s Unban number\n[%s 0 %s] Salir            %s|%s Exit\n%s===> %s'''%(logo,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco,Rojo,Branco))
 		if op in ['0']:
 			break
 		#Caso queira adicionar uma nova opção, coloque uma nova string na condicional abaixo.
 		elif op in ['1','2']:
 			open('https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4OSggjYOgt8g8HbgSU58LpUqQ5GsD63ipENqa84YegMHionqqvIXMMoc4bqu-C0GH0N--Kal_AFpd5rRJYyO0g-y1AbEQ');system('termux-open-url https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4OSggjYOgt8g8HbgSU58LpUqQ5GsD63ipENqa84YegMHionqqvIXMMoc4bqu-C0GH0N--Kal_AFpd5rRJYyO0g-y1AbEQ')
 			try:
-				numero=str(input('%s[%s Número %s|%s Number %s] - %s'%(Azul,Branco,Azul,Branco,Azul,Branco)))
+				numero=str(input('%s[%s Número %s|%s Number %s] - %s'%(Rojo,Branco,Rojo,Branco,Rojo,Branco)))
 		#Aqui você pode colocar um novo texto ou alterar um já existente.
 				op={
 				'1':'Cuenta Robada CP|Buenos dias hace unas horas perdi mi celular y una persona desconocida ingreso a mi cuenta de whatsapp y está compartiendo CP esto me puede generar muchos problemas con mis familiares y amigos porfavor les agradeceria que desactiven mi cuenta de whatssap gracias de antemano por la ayuda mi numero es : %s'%numero,
 				'2':'الحساب موقوف|تم تعليق رقمي عن طريق الخطأ يرجى تفعيله: %s'%numero
 				}[op]
-				gmail=str(input('%s[ %sGmail%s ] -%s '%(Azul,Branco,Azul,Branco)))
-				password=str(input('%s[%s Contraseña %s|%s Password %s] - %s' %(Azul,Branco,Azul,Branco,Azul,Branco)))
+				gmail=str(input('%s[ %sGmail%s ] -%s '%(Rojo,Branco,Rojo,Branco)))
+				password=str(input('%s[%s Contraseña %s|%s Password %s] - %s' %(Rojo,Branco,Rojo,Branco,Rojo,Branco)))
 				for _ in range(0,1000):
 					Thread(init(gmail, password, op.split('|')[0],op.split('|')[1])).start()
 			except:
@@ -56,7 +56,7 @@ logo='''%s
 \ \ \' /   \ \ \____  \ \  __\   \ \ \/\ \ 
  \ \__|    \ \_____\  \ \_____\  \ \____- 
   \/_/      \/_____/   \/_____/   \/____/ Actualizado por speedrunner1a
-%sActive la opción de aplicaciones menos seguras. %s|%s Turn on the less secure apps option.\n'''%(Azul,Branco,Azul,Branco)
+%sActive la opción de aplicaciones menos seguras. %s|%s Turn on the less secure apps option.\n'''%(Rojo,Branco,Rojo,Branco)
 ##################
 if __name__ == '__main__':
 	main()
